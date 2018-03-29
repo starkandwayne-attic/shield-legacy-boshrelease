@@ -1,0 +1,6 @@
+mariadb/mariadb-10.1.14.tar.gz:
+  size: 55341017
+  sha: dcf46d638cd33032117a9f0d89e8650aa1309e74
+postgres/postgresql-9.4.5.tar.gz:
+  size: 23211720
+  sha: 5278d04093f3cb2e00796fae15b2e33406844d01
