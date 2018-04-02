@@ -1,0 +1,29 @@
+name: shield-legacy
+version: 1.0.0
+commit_hash: 92995b2
+uncommitted_changes: false
+jobs:
+- name: mariadb
+  version: 0f96d64f89b3c23da194a61130872c2c8ba1929e
+  fingerprint: 0f96d64f89b3c23da194a61130872c2c8ba1929e
+  sha1: 73e32270c9894109751c6e8694829b1da0ecd7f6
+- name: postgres
+  version: d830a3b90a0742807d4ca7c175600b5d591de2f5
+  fingerprint: d830a3b90a0742807d4ca7c175600b5d591de2f5
+  sha1: 8ac38bf0cc846bf4e9ffef12688e49deac9ecb5c
+packages:
+- name: common
+  version: e401816a4748292163679fafcbd8f818ed8154a5
+  fingerprint: e401816a4748292163679fafcbd8f818ed8154a5
+  sha1: 1111458f5fb7e3ab63cce65f0f71844eca84f348
+  dependencies: []
+- name: mariadb
+  version: 527563776d016f4aa93fa3e9b03f8cd65e2d825a
+  fingerprint: 527563776d016f4aa93fa3e9b03f8cd65e2d825a
+  sha1: 15489dc41f7c020dd83fc9029e4115b91359ea23
+  dependencies: []
+- name: postgres-9.4
+  version: 6bd9c24fa5c93ac7adbe448e9c1d3431d4c345b8
+  fingerprint: 6bd9c24fa5c93ac7adbe448e9c1d3431d4c345b8
+  sha1: e767c334fd4bd1116df134e6df0c3449cb77aa07
+  dependencies: []
