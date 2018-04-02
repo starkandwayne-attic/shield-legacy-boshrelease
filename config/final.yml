@@ -1,1 +1,6 @@
-name: shield-legacy
+---
+blobstore:
+  provider: s3
+  options:
+    bucket_name: shield-legacy-boshrelease
+final_name: shield-legacy
